@@ -7,15 +7,20 @@ const Navbar = () => {
       <div
          className="
             flex
+            z-10
             w-screen
             p-6
             justify-between
             fixed
             top-0
-
+            
          "
       >
-         <div className="flex flex-col">
+         <div className="
+            flex 
+            flex-col
+            
+            ">
             <Link
                className=" font-medium text-[18px] leading-snug"
                href='/'
