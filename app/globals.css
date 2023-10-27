@@ -22,3 +22,19 @@ body {
   /* background-blend-mode: difference;
   background: rgba(255, 255, 255, 0.2) url('/noise_6.jpg') repeat center center; */
 }
+
+.blackSpan{
+  background-image: linear-gradient(to right,black 0%,#FBF1EA 0%);
+}
+
+.blackSpan:hover{
+  background-image: linear-gradient(to right,#141413 0%,#141413 100%);
+}
+
+.blackDiv{
+  transition:all 0.5s ease;
+}
+
+.blackDiv:hover{
+  border-radius:34px;
+}
